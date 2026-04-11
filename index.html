@@ -1720,7 +1720,9 @@ footer a:hover { color: rgba(255,255,255,0.5); }
 @media (max-width: 760px) {
   .products-grid { grid-template-columns: 1fr; }
   .product-main { grid-column: auto; }
-  .product-main .product-body { flex-direction: column; }
+  .product-main .product-body { flex-direction: column; gap: 6px; padding: 18px 20px; }
+  .product-main .product-body h3 { flex: none; font-size: 22px; }
+  .product-main .product-body p { flex: none; }
 }
 .product-img-placeholder {
   width: 100%;
